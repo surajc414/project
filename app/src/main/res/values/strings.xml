@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intent Example</string>
+    <string name="intent_example1">  Intent intent=new Intent(getApplicationContext(), MainActivity.class);
+               \n startActivity(intent);</string>
+    <string name="intent_example2">    Intent intent=new Intent(Intent.ACTION_VIEW);\n
+    intent.setData(Uri.parse("http://www.javatpoint.com"));\n
+    startActivity(intent);</string>
+    <string name="example_n_of_nexternal_intent">Example   of  External Intent</string>
+    <string name="example_nof_n_internal_intent">Example  of  Internal Intent</string>
+    <string name="example_nof_n_result_activity">Example  of  Result Activity</string>
+    <string name="alarm_setting">ALARM SETTING</string>
+    <string name="set_timer">SET TIMER</string>
+    <string name="add_calendar_event">Add Calendar Event</string>
+    <string name="eample_of_n_system_settings">Eample of  system settings</string>
+
+
+</resources>

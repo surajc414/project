@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".IntentInternalExample">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="EXAMPLE OF INTERNAL INTENT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/MyButton"
+            android:text="OPEN WEBSITE" />
+
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/MyButton"
+            android:onClick="setAlarm"
+            android:text="@string/alarm_setting" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/MyButton"
+            android:onClick="openCamera"
+            android:text="CAMERA" />
+
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/img1"
+            android:src="@android:drawable/ic_menu_camera"
+            android:scaleType="centerInside" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/MyButton"
+            android:onClick="openContact"
+            android:text="CONTACT" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/MyButton"
+            android:onClick="setTimer"
+            android:text="@string/set_timer" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/MyButton"
+            android:onClick="addCalenderEvent"
+            android:text="@string/add_calendar_event" />
+
+        <Button
+            android:id="@+id/btn10"
+            style="@style/MyButton"
+            android:onClick="sendMail"
+            android:text="Email Send" />
+
+        <Button
+            android:id="@+id/btn11"
+            style="@style/MyButton"
+            android:onClick="selectImage"
+            android:text="SELECT IMAGE" />
+
+        <Button
+            android:id="@+id/btn12"
+            style="@style/MyButton"
+            android:onClick="openMap"
+            android:text="OPEN MAP" />
+
+        <Button
+            android:id="@+id/btn13"
+            style="@style/MyButton"
+            android:onClick="playMedia"
+            android:text="Play a Media File" />
+
+        <Button
+            android:id="@+id/btn14"
+            style="@style/MyButton"
+            android:text="Click to OPEN available app for sharing..." />
+
+    </LinearLayout>
+
+</ScrollView>
